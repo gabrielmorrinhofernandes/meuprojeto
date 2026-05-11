@@ -2,4 +2,24 @@
 
     align-items: center;
     display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+    
+}
+.prgf{
+
+    color: white;
+}
+.bigdiv{
+    background-color: black;
+    border-radius: 15px;
+    position: sticky;
+    top: 0;
+}
+.h1v1{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
 }
