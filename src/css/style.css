@@ -1,25 +1,23 @@
 .cabecalho {
     align-items: center;
     display: flex;
-    gap: 100px;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 .prgf{
     color: white;
-    font-size: 30px;
+    font-size: 1.5em;
     align-items: left;
     justify-content: left;
     flex-direction: row;
 }
 header{
-    background-image: url(/src/assets/walltexture.png);
+    background-image: url(../assets/walltexture.png);
     background-size: cover;
     border-radius: 15px;
     position: sticky;
     top: 0;
-    padding-top: 10px;
     padding-bottom: 10px;
+    max-block-size: 10em;
 }
 .h1v1{
     color: white;
@@ -52,7 +50,9 @@ a:hover{
     color: rgb(68, 68, 0);
     font-weight: bold;
 }
-body{background-image: url(/src/assets/partytexture.jpg);
+body{
+
+background-image: url("../assets/partytexture.jpg");
  background-attachment: fixed;
 }
 head{font-family: Arial;}
