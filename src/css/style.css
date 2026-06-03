@@ -18,6 +18,7 @@ header{
     top: 0;
     padding-bottom: 10px;
     max-block-size: 10em;
+
 }
 .h1v1{
     color: white;
@@ -26,7 +27,7 @@ header{
     margin-left: 1.25em;
 }
 nav{
-    gap: 12.5em;
+    gap: 10em;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -55,4 +56,9 @@ body{
 background-image: url("../assets/partytexture.jpg");
  background-attachment: fixed;
 }
-head{font-family: Arial;}
+head{
+    font-family: Arial;
+}
+.texto-header{
+
+}
