@@ -25,8 +25,9 @@ h1.h1v1{
 }
 h2.h1v1{
     color: rgb(65, 0, 0);
-    margin-left: 7em;
+    margin-left: 6em;
     font-size: 1.5em;
+
 }
 .texto-inicial{
     max-height: 4em;
@@ -69,6 +70,18 @@ body{
 .logo{
     max-block-size: 12em;
 }
-
+footer{
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color: white;
+    background-color: black;
+    border-top: 5px;
+    border-style: solid;
+    border-color: purple;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
 
 
