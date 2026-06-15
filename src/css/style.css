@@ -40,10 +40,9 @@ nav{
     display: flex;
 }
 main{
-    text-align: center;
-    font-size: 1.25em;
+    text-align: justify;
+    font-size: 1.50em;
     color: rgb(222, 200, 0);
-
 }
 a{
     color: red;
