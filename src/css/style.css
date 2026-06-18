@@ -1,11 +1,15 @@
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .prgf{
     color: white;
     font-size: 1.5em;
 }
 .cabecalho{
     margin-left: 23em;
-    min-width: max-content;
+    min-width: min-content;
 }
 header{
     background-image: url(../assets/walltexture.png);
@@ -13,41 +17,53 @@ header{
     border-radius: 15px;
     position: sticky;
     top: 0;
-    padding-bottom: 10px;
     max-block-size: 11em;
     display: flex;
     flex-direction: column;
+    border: solid;
+    min-width: min-content;
 }
 h1.h1v1{
+    margin-top: 1em;
     color: white;
     display: flex;
     margin-left: 1.25em;
 }
 h2.h1v1{
-    color: rgb(65, 0, 0);
-    margin-left: 6em;
+    color: rgb(255, 236, 62);
+    margin-left: 5em;
+    padding-right: 0;
     font-size: 1.5em;
+}
 
-}
-.texto-inicial{
-    max-height: 4em;
-}
 nav{
-
-    align-items: center;
     justify-content: space-evenly;
-    border-radius: 15px;
     display: flex;
 }
 main{
-    text-align: justify;
     font-size: 1.50em;
     color: rgb(222, 200, 0);
+    margin-left: 2em;
+    margin-right: 2em
+}
+#paragrafo1{
+    margin-left: 1em;
+    margin-right: 1em;
+    background-image: radial-gradient(rgb(105, 105, 105),rgb(44, 44, 44));
+    border-color: yellow;
+    border: solid;
+    box-shadow: 0.75em 0.75em 0.5em 0em rgb(44, 44, 44);
+}
+#espaco{
+    margin-top: 1em;
+}
+h2#espaco{
+    margin-bottom: 1em;
 }
 a{
     color: red;
-   transition: 1s;
-   font-weight: bold;
+    transition: 1s;
+    font-weight: bold;
 }
 a:hover{
     transform: scale(1.5);
@@ -57,6 +73,7 @@ a:hover{
 body{
     background-image: url("../assets/partytexture.jpg");
     background-attachment: fixed;
+    background-size: 70%;
 }
 #cabeça{
     display: flex;
@@ -64,12 +81,13 @@ body{
     justify-content: space-between;
 }
 #logo{
-    max-block-size: 10em;
+    max-block-size: 1em;
 }
 .logo{
-    max-block-size: 12em;
+    max-block-size: 8em;
 }
 footer{
+    margin-top: 3em;
     text-align: center;
     padding-bottom: 1em;
     padding-top: 1em;
