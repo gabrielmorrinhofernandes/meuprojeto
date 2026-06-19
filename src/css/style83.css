@@ -44,13 +44,13 @@ nav{
 }
 main{
     font-size: 1.50em;
-    color: rgb(222, 200, 0);
+    color: rgb(201, 0, 0);
     margin-left: 2rem;
     margin-right: 2rem
 }
 img#fachada{
     border: solid;
-    border-color: yellow;
+    border-color: rgb(201, 0, 0);
     max-width: 100%;
     height: auto;
 }
@@ -61,7 +61,7 @@ img#fachada{
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     background-image: radial-gradient(rgb(105, 105, 105),rgb(44, 44, 44));
-    border-color: yellow;
+    border-color: rgb(0, 205, 241);
     border: solid;
     box-shadow: 0.75em 0.75em 0.5em 0em rgb(44, 44, 44);
 }
@@ -96,7 +96,7 @@ h2#espaco{
     flex-direction: row;
     font-size: 100%;
     justify-content: space-evenly;
-    background-image:linear-gradient(rgb(45, 0, 73),rgb(25, 0, 28));
+    background-image:linear-gradient(rgb(0, 67, 99),rgb(25, 0, 28));
     gap: 2rem;
     font-size: 0;
     transition: 1s;
@@ -106,7 +106,7 @@ font-size: 100%;
 }
 #texto-descrito{
     border: solid;
-    border-color: yellow;
+    border-color: rgb(201, 0, 0);
 }
 img#promocional{
     max-width: 15rem;
