@@ -44,15 +44,15 @@ nav{
 }
 main{
     font-size: 1.50em;
-    color: rgb(222, 200, 0);
+    color: rgb(222, 4, 0);
     margin-left: 2rem;
     margin-right: 2rem
 }
 #paragrafo1{
     margin-left: 1.2rem;
     margin-right: 1.2rem;
-    background-image: radial-gradient(rgb(105, 105, 105),rgb(44, 44, 44));
-    border-color: yellow;
+    background-image: radial-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+    border-color: rgb(65, 0, 0);
     border: solid;
     box-shadow: 0.75em 0.75em 0.5em 0em rgb(44, 44, 44);
 }
@@ -64,11 +64,6 @@ p{
 }
 h2#espaco{
     margin-bottom: 2rem;
-}
-.start{
-    background-color: rgb(54, 54, 54);
-    padding-right: 1rem;
-    padding-left: 1rem;
 }
 a{
     color: red;
@@ -98,6 +93,10 @@ body{
 .logo{
     max-block-size: 9rem;
 }
+img{
+    max-block-size: 20rem;
+    margin-left: 35rem;
+}
 footer{
     margin-top: 5rem;
     text-align: center;
@@ -112,5 +111,3 @@ footer{
     border-right: 0px;
     border-left: 0px;
 }
-
-

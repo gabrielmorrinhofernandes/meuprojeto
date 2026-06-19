@@ -48,6 +48,13 @@ main{
     margin-left: 2rem;
     margin-right: 2rem
 }
+img#fachada{
+    border: solid;
+    border-color: yellow;
+}
+#dinner{
+    text-align: center;
+}
 #paragrafo1{
     margin-left: 1.2rem;
     margin-right: 1.2rem;
@@ -65,7 +72,28 @@ p{
 h2#espaco{
     margin-bottom: 2rem;
 }
-.start{
+#animatronic{
+    display: flex;
+    justify-content: space-evenly;
+}
+#descricao{
+    display: flex;
+    flex-direction: row;
+    font-size: 100%;
+    justify-content: space-evenly;
+    background-image:linear-gradient(rgb(45, 0, 73),rgb(25, 0, 28));
+    gap: 2em;
+    font-size: 0;
+    transition: 1s;
+}
+#descricao:hover{
+font-size: 100%;
+}
+#texto-descrito{
+    border: solid;
+    border-color: yellow;
+}
+.um{
     background-color: rgb(54, 54, 54);
     padding-right: 1rem;
     padding-left: 1rem;
@@ -76,6 +104,21 @@ a{
     font-weight: bold;
     background-color: rgb(31, 31, 31);
     font-size: 1.25rem;
+}
+#blueprint{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-image:linear-gradient(rgb(0, 60, 255),rgb(49, 0, 134));
+    border: solid;
+    border-color: black;
+    box-shadow: 0.75em 0.75em 0.5em 0em rgb(44, 44, 44);
+}
+div#peca{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 a:hover{
     transform: scale(1.5);
@@ -112,5 +155,3 @@ footer{
     border-right: 0px;
     border-left: 0px;
 }
-
-
